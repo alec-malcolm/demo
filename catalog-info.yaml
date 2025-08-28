@@ -1,7 +1,6 @@
 apiVersion: backstage.io/v1alpha1
-kind: Component
+kind: API
 metadata:
-  name: demo
   annotations:
     github.com/project-slug: alec-malcolm/demo
   tags:
@@ -12,6 +11,20 @@ metadata:
     - title: Some link
       url: https://google.ca
 spec:
-  type: service
+  type: openapi
   lifecycle: experimental
   owner: camis-developers
+  definition: |
+    openapi: "3.0.0"
+    info:
+      version: 1.0.0
+      title: Demo API
+      license:
+        name: MIT
+    servers:
+      - url: http://artist.spotify.net/v1
+    paths:
+      /artists:
+        get:
+          summary: List all artists
+    ...
