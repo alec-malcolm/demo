@@ -1,0 +1,104 @@
+# .NET Core / .NET Framework .gitignore
+# Ignore Visual Studio temporary files, build results, and
+# user-specific files
+
+# Build results
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio folder
+.vs/
+
+# Others
+*.log
+TestResults/
+
+# OS generated files
+[Dd]esktop.ini
+[Tt]humbs.db
+
+# Rider
+.idea/
+*.sln.iml
+
+# NuGet
+*.nupkg
+# The packages folder can be ignored if it is not under source control
+**/packages/*
+!**/packages/build/
+!**/packages/repositories.config
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# StyleCop
+StyleCopReport.xml
+
+# Files built by Visual Studio
+*_i.c
+*_p.c
+*_h.h
+*.ilk
+*.meta
+*.obj
+*.pch
+*.pdb
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlh
+*.tli
+*.tmp
+*.log
+*.vspscc
+*.vssscc
+*.cache
+*.csproj.user
+*.dbmdl
+*.bak
+*.backup
+*.BLOB
+*.db
+*.mdf
+*.ldf
+*.ndf
+*.sdf
+*.sqlite
+*.sqlite3
+*.mdf
+*.ldf
+*.ndf
+*.sdf
+*.sqlite
+*.sqlite3
+
+# DotCover
+*.dotCover
+
+# NCrunch
+*.ncrunch*
+.*crunch*
+_nCrunch_*
+
+# WebMatrix
+*.publishsettings
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# VS Code
+.vscode/
