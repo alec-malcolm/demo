@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: demo
+  annotations:
+    github.com/project-slug: alec-malcolm/demo
+spec:
+  type: service
+  lifecycle: experimental
+  owner: camis-developers
