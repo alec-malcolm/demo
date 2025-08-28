@@ -4,7 +4,14 @@ metadata:
   name: demo
   annotations:
     github.com/project-slug: alec-malcolm/demo
+  tags:
+    - devops
+    - docker
+    - api
+  links:
+    - title: Some link
+      url: https://google.ca
 spec:
-  type: other
-  lifecycle: unknown
+  type: service
+  lifecycle: experimental
   owner: camis-developers
