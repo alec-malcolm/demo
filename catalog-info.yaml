@@ -23,6 +23,12 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: devops-demo-service
+  annotations:
+    github.com/project-slug: alec-malcolm/demo
+  tags:
+    - devops
+    - docker
+    - api
 spec:
   type: service
   lifecycle: experimental
